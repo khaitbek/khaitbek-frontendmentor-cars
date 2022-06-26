@@ -39,6 +39,27 @@ body {
   border-radius: 8px;
 }
 
+.cars-item::before{
+  content: '';
+  display: block;
+  width: 64px;
+  height: 40px;
+  background-position: center;
+  background-size: 64px 40px;
+  margin-left: 15px;
+}
+
+.cars-item:nth-child(1)::before{
+  background-image: url("../images/icon-sedan.svg");
+}
+
+.cars-item:nth-child(2)::before{
+  background-image: url("../images/icon-suv.svg");
+}
+.cars-item:nth-child(3)::before{
+  background-image: url("../images/icon-luxury.svg");
+}
+
 .item-img {
   margin-bottom: 35px;
 }
