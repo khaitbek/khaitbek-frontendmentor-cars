@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-weight: 400;
+  src:
+       url('../fonts/big-shoulders-display-v13-latin-regular.woff2') format('woff2'), 
+       url('../fonts/big-shoulders-display-v13-latin-regular.woff') format('woff');
+}
+/* big-shoulders-display-700 - latin */
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  src:
+       url('../fonts/big-shoulders-display-v13-latin-700.woff2') format('woff2'), 
+       url('../fonts/big-shoulders-display-v13-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  src:
+       url('../fonts/lexend-deca-v16-latin-regular.woff2') format('woff2'), 
+       url('../fonts/lexend-deca-v16-latin-regular.woff') format('woff'); 
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -32,6 +58,7 @@ body {
   padding-right: 20px;
   list-style: none;
 }
+
 
 .cars-item {
   width: 307px;
