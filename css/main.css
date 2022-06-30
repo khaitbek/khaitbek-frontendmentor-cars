@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: 'Big Shoulders Display';
   font-weight: 400;
@@ -25,13 +32,20 @@
 
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 90vh;
   margin: 0;
   font-family: "Lexend Deca", "Arial", sans-serif;
@@ -50,6 +64,8 @@ body {
 }
 
 .cars-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 920px;
   margin-right: auto;
@@ -123,6 +139,8 @@ body {
     background-color: transparent;
     color: #fff;
     border-color: #fff;
+    -webkit-transition: background 0.3s ease, color 0.3s ease;
+    -o-transition: background 0.3s ease, color 0.3s ease;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
